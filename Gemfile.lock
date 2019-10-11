@@ -47,7 +47,17 @@ GEM
     archive-zip (0.12.0)
       io-like (~> 0.3.0)
     arel (9.0.0)
+<<<<<<< HEAD
     bindex (0.8.1)
+=======
+    better_errors (2.5.1)
+      coderay (>= 1.0.0)
+      erubi (>= 1.0.0)
+      rack (>= 0.9.0)
+    bindex (0.8.1)
+    binding_of_caller (0.8.0)
+      debug_inspector (>= 0.0.1)
+>>>>>>> origin/master
     bootsnap (1.4.5)
       msgpack (~> 1.0)
     builder (3.2.3)
@@ -65,6 +75,10 @@ GEM
     chromedriver-helper (2.1.1)
       archive-zip (~> 0.10)
       nokogiri (~> 1.8)
+<<<<<<< HEAD
+=======
+    coderay (1.1.2)
+>>>>>>> origin/master
     coffee-rails (4.2.2)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0)
@@ -74,6 +88,10 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.5)
     crass (1.0.4)
+<<<<<<< HEAD
+=======
+    debug_inspector (0.0.3)
+>>>>>>> origin/master
     erubi (1.9.0)
     execjs (2.7.0)
     ffi (1.11.1)
@@ -88,7 +106,11 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
+<<<<<<< HEAD
     loofah (2.3.0)
+=======
+    loofah (2.2.3)
+>>>>>>> origin/master
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
@@ -99,12 +121,24 @@ GEM
     mimemagic (0.3.3)
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
+<<<<<<< HEAD
     minitest (5.12.2)
+=======
+    minitest (5.12.0)
+>>>>>>> origin/master
     msgpack (1.3.1)
     nio4r (2.5.2)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
     pg (1.1.4)
+<<<<<<< HEAD
+=======
+    pry (0.12.2)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+    pry-rails (0.3.9)
+      pry (>= 0.10.4)
+>>>>>>> origin/master
     public_suffix (4.0.1)
     puma (3.12.1)
     rack (2.0.7)
@@ -191,6 +225,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+<<<<<<< HEAD
+=======
+  better_errors
+  binding_of_caller
+>>>>>>> origin/master
   bootsnap (>= 1.1.0)
   byebug
   capybara (>= 2.15)
@@ -199,6 +238,10 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
+<<<<<<< HEAD
+=======
+  pry-rails
+>>>>>>> origin/master
   puma (~> 3.11)
   rails (~> 5.2.3)
   sass-rails (~> 5.0)

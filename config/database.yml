@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PostgreSQL. Versions 9.1 and up are supported.
 #
 # Install the pg driver:
@@ -19,10 +20,17 @@ default: &default
   encoding: unicode
   # For details on connection pooling, see Rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
+=======
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+>>>>>>> origin/master
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:
   <<: *default
+<<<<<<< HEAD
   database: blogapp_development
 
   # The specified database role being used to connect to postgres.
@@ -83,3 +91,16 @@ production:
   database: blogapp_production
   username: blogapp
   password: <%= ENV['BLOGAPP_DATABASE_PASSWORD'] %>
+=======
+  database: sample2_development
+test:
+  <<: *default
+  database: sample2_test
+
+
+production:
+  <<: *default
+  database: sample2_production
+  username: sample2
+  password: <%= ENV['SAMPLE2_DATABASE_PASSWORD'] %>
+>>>>>>> origin/master

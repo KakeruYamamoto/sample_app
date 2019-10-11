@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "blogapp",
+=======
+  "name": "sample2",
+>>>>>>> origin/master
   "private": true,
   "dependencies": {}
 }

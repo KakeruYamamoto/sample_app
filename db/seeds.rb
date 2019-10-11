@@ -5,6 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+<<<<<<< HEAD
 
 scores = [
   { name: 'nakai', subject: 'English', score: '65' },
@@ -29,3 +30,5 @@ scores = [
   { name: 'katori', subject: 'Music', score: '75' }
 ]
 Score.create! scores
+=======
+>>>>>>> origin/master
